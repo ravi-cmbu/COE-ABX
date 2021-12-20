@@ -1,9 +1,5 @@
 def handler(context, inputs):
-    greeting = "Hello, ravi {0}!".format(inputs["target"])
-    print(greeting)
-
-    outputs = {
-      "greeting": greeting
-    }
+    print("The parameter outputs are as follows")
+    outputs=inputs
 
     return outputs
