@@ -1,0 +1,14 @@
+---
+exportVersion: "1"
+exportId: "8a74800a7dc91d8a017dd60d89c10000"
+name: "RK_ABX"
+runtime: "python"
+entrypoint: "handler"
+description: "first ABX"
+inputs:
+  target: "World"
+timeoutSeconds: 600
+deploymentTimeoutSeconds: 900
+actionType: "SCRIPT"
+provider: "on-prem"
+memoryInMB: 300
