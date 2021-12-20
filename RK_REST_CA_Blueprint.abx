@@ -1,0 +1,16 @@
+---
+exportVersion: "1"
+exportId: "8a74800a7dc91d8a017dd799db38003c"
+name: "RK_REST_CA_Blueprint"
+runtime: "python"
+entrypoint: "handler"
+description: "request a blueprint information using REST "
+inputs:
+  callUrlIN: "/blueprint/api/blueprints"
+timeoutSeconds: 600
+deploymentTimeoutSeconds: 900
+actionType: "SCRIPT"
+provider: "on-prem"
+configuration:
+  const_azure-system_managed_identity: false
+memoryInMB: 300
