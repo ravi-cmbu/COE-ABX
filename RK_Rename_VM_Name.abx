@@ -1,0 +1,13 @@
+---
+exportVersion: "1"
+exportId: "8a74800a7dc91d8a017ddb9d9cd6006f"
+name: "RK_Rename_VM_Name"
+runtime: "python"
+entrypoint: "handler"
+description: "Renames a VM name using ABX"
+timeoutSeconds: 600
+deploymentTimeoutSeconds: 900
+actionType: "SCRIPT"
+configuration:
+  const_azure-system_managed_identity: false
+memoryInMB: 300
